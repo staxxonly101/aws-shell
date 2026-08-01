@@ -1,4 +1,4 @@
-aws-shell - The interactive productivity booster for the AWS CLI
+aws-shell - The booster for the AWS 
 ================================================================
 
 .. image:: https://aws-developer-blog-media.s3-us-west-2.amazonaws.com/cli/Super-Charge-Your-AWS-Command-Line-Experience-with-aws-shell/aws-shell-final.gif
@@ -6,6 +6,7 @@ aws-shell - The interactive productivity booster for the AWS CLI
 
 Installation
 ============
+
 
 The aws-shell requires python and `pip`_ to install.
 You can install the aws-shell using `pip`_::
@@ -52,7 +53,8 @@ The aws-shell works on the same python versions supported by the AWS CLI:
 * 3.4.x and greater
 
 
-Configuration
+
+BAM
 =============
 
 The aws-shell uses the same configuration settings as the AWS CLI.
@@ -113,12 +115,12 @@ You can also change the current profile while you're in the aws-shell::
     aws> .profile demo
     Current shell profile changed to: demo
 
-You can also check what profile you've configured in the aws-shell using::
+You can also check what you've configured in the aws-shell using::
 
-    aws> .profile
-    Current shell profile: demo
+    aws> .bam
+    Current shell bam: demo
 
-After changing your profile using the ``.profile`` dot command, all
+After changing your using the dot command, all
 server side completion as well as CLI commands will automatically use
 the new profile you've configured.
 
