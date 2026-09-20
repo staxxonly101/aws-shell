@@ -1,10 +1,7 @@
-aws-shell - The interactive productivity booster for the AWS CLI
+aws-shell 
 ================================================================
 
-.. image:: https://aws-developer-blog-media.s3-us-west-2.amazonaws.com/cli/Super-Charge-Your-AWS-Command-Line-Experience-with-aws-shell/aws-shell-final.gif
-
-
-Installation
+.. image:: https://aws-developer-blog-media.s3-us-west-2.amazonaws.com/cli/Super-Charge-Your-A
 ============
 
 The aws-shell requires python and `pip`_ to install.
@@ -35,7 +32,7 @@ Upgrading the aws-shell
 If you want to upgrade to the latest version of the aws-shell,
 you can run::
 
-    $ pip install --upgrade aws-shell
+    $  --upgrade aws-shell
 
 You can also use this upgrade command whenever a new version of the AWS CLI is
 released that includes new services and API updates.  You will then be
